@@ -107,7 +107,16 @@ img
 {
  border-color: black;
 }
-
+	
+.avatar{
+width: 400px;
+height: 300px;
+margin: 50px auto;
+}
+.avatar img{
+-webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+}
 
 </style>
 <!--
@@ -134,9 +143,11 @@ img
     <tr>
 
     <td width="337"><table>
-			<tbody><tr><td>
+	    <tbody><tr><td>
+		    <div class="avatar">
 			<a href="https://zehao-wang.github.io/"><img src="./imgs/Avatar4.JPG" height="200" alt="Zehao Wang&#39;s portrait" border="1"></a></td></tr>
-			</tbody></table></td>
+	            </div>
+	</tbody></table></td>
     <td width="15"></td>
     <td></td>
     <td><table border="0" width="100%">
@@ -211,6 +222,7 @@ img
 <br>
 <br>
 
+<HR>
 
 <p id="sect-publications" class="title-large">Publications</p>
 
